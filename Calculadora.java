@@ -4,10 +4,6 @@
 
 package com.mycompany.calculadora;
 
-/**
- *
- * @author kiko
- */
 import java.util.Scanner;
 
 /**
@@ -23,7 +19,7 @@ public class Calculadora {
      
         System.out.print("Elige la operación (+, -, *, /): ");
         String operacion = scanner.next();
-
+//comentario desde github
 
         System.out.print("Introduce el primer número: ");
         double num1 = scanner.nextDouble();

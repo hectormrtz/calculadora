@@ -35,7 +35,6 @@ public class Calculadora {
         double resultado = 0;
         boolean operacionValida = true;  
 
-        // Realizar la operación
         if (operacion.equals("+")) {
             resultado = num1 + num2;
         } else if (operacion.equals("-")) {
